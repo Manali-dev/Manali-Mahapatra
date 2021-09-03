@@ -1,0 +1,402 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+.logo img{
+    width: 30%;
+    border: 2px solid;
+    border-radius: 50px;
+
+}
+
+.navbar{
+    display: flex;
+    background: rgba(0, 0, 0, 0.651);
+}
+
+.leftnav{
+    width: 70%;
+    display: flex;
+    align-items: center;
+}
+
+.leftnav li{
+    list-style: none;
+    padding: 26px 30px;
+}
+
+.leftnav li a{
+    text-decoration: none;
+    color: white;
+}
+
+.leftnav li a:hover{
+    color: grey;
+}
+
+.rightnav{
+    width: 30%;
+    text-align: right;
+}
+
+#search{
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid grey;
+    border-radius: 9px;
+}
+
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 80%;
+    margin: auto;
+    padding-top: 10%;
+    font-size: large;
+    flex-direction: column;
+}
+
+
+.box-main img{
+    border-radius: 200px;
+    border: 1px solid white;
+    margin-top: 18%;
+    position: absolute;
+    right: 2%;
+}
+
+.firstSection{
+    height: 100vh;
+}
+
+.background{
+    background: rgba(0, 0, 0, 0.7) url('image/backgroundImage.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.btn-small{
+    padding: 4px 10px;
+    vertical-align: middle;
+    border-radius: 8px;
+}
+
+.section{
+    height: 350px;
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.secLeft{
+    height: 400px;
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    margin-right: 30px;
+    flex-direction: row-reverse;
+}
+
+.thumbnail img{
+    border-radius: 10%;
+    border: 1px solid black;
+    margin: 20px;
+}
+
+.paras{
+    padding: 100px;
+}
+
+.contact{
+    background: rgba(228, 218, 218, 0.904);
+    height: 50vh;
+    text-align: center;
+    padding: 20px;
+}
+
+.form input{
+    width: 40%;
+    font-size: 15px;
+    border: 2px solid rgba(128, 128, 128, 0.945);
+    border-radius: 6px;
+    padding: 2px;
+    margin: 10px;
+}
+
+.btn{
+    padding: 4px 10px;
+    vertical-align: middle;
+    border-radius: 8px;
+}
+
+.btn-gallery{
+    width: fit-content;
+    padding: 4px 10px;
+    vertical-align: middle;
+    border-radius: 8px;
+}
+
+footer{
+    text-align: center;
+    font-size: large;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.651);
+    color: white;
+}
+
+.burger{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15px;
+}
+
+.line{
+    width: 20px;
+    background-color: white;
+    height: 2px;
+    margin: 3px 3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.GALLERY_images{
+    transition: all 0.8s;
+}
+.GALLERY_images_type_2{
+    transition: all 0.8s;
+}
+.GALLERY_images_type_3{
+    transition: all 0.8s;
+}
+
+.GALLERY_images:hover{
+    transform: scale(1.2) rotate(0deg);
+    box-shadow: 2px 2px 10px black;
+}
+.GALLERY_images_type_2:hover{
+    transform: scale(1.2) rotate(0deg);
+    box-shadow: 2px 2px 10px black;
+}
+.GALLERY_images_type_3:hover{
+    transform: scale(1.2) rotate(0deg);
+    box-shadow: 2px 2px 10px black;
+}
+
+
+.GALLERY_images_div_1{
+    display: inline-flex;
+    width: 100%;
+}
+.GALLERY_images_div_1_A{
+    width: 282px;
+    height: 500px;
+    border: 2px solid rgb(255, 255, 255);
+}
+.GALLERY_images_div_1_A video{
+    height: 100%;
+}
+.GALLERY_images_div_1_B{
+    width: 777px;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+}
+.GALLERY_images_div_1_B_I{
+    display: inline-flex;
+    width: 100%;
+    height: 248px;
+}
+.GALLERY_images_div_1_B_I_a{
+    background-image: url("/iEducateWebsite/image/1.jpg");
+    height: 100%;
+    width: 50%;
+    background-size: 100% 100%;
+    border: 2px solid white;
+}
+ .GALLERY_images_div_1_B_I_b{
+    background-image: url("/iEducateWebsite/image/2.jpg");
+    height: 100%;
+    width: 50%;
+    background-size: 100% 100%;
+    border: 2px solid white;  
+}
+ 
+.GALLERY_images_div_1_B_II{
+    display: inline-flex;
+    height: 248px;
+    width: 100%;
+}
+.GALLERY_images_div_1_B_II_a{
+    background-image: url("/iEducateWebsite/image/3.jpg");
+    width: 50%;
+    background-size: 100% 100%;
+    border: 2px solid white; 
+}
+.GALLERY_images_div_1_B_II_b{
+    background-image: url("/iEducateWebsite/image/6.png");
+    width: 50%;
+    background-size: 100% 100%;
+    border: 2px solid white; 
+}
+.GALLERY_images_div_1_C{
+    width: 282px;
+    height: 500px;
+    border: 2px solid white;
+}
+.GALLERY_images_div_1_C video{
+    height: 100%;
+}
+
+.GALLERY_images_type_2{
+    display: inline-table;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+.GALLERY_images_type_2_A{
+    display: inline-flex;
+    width: 100%;
+    height: 250px;
+}
+.GALLERY_images_type_2_A_1{
+    background-image: url("/iEducateWebsite/image/7.jpg");
+    height: 100%;
+    width: 25%;
+    background-size: 100% 100%;
+    border: 2px solid white;
+}
+.GALLERY_images_type_2_A_2{
+    background-image: url("/iEducateWebsite/image/4.jpg");
+    height: 100%;
+    width: 25%;
+    background-size: 100% 100%;
+    border: 2px solid white;
+}
+.GALLERY_images_type_2_A_3{
+    background-image: url("/iEducateWebsite/image/8.jpg");
+    height: 100%;
+    width: 25%;
+    background-size: 100% 100%;
+    border: 2px solid white;
+}
+.GALLERY_images_type_2_A_4{
+    background-image: url("/iEducateWebsite/image/9.jpg");
+    height: 100%;
+    width: 25%;
+    background-size: 100% 100%;
+    border: 2px solid white;
+}
+.GALLERY_images_type_2_B{
+    display: inline-flex;
+    width: 100%;
+    height: 250px;
+}
+.GALLERY_images_type_2_B_1{
+    background-image: url("/iEducateWebsite/image/10.jpg");
+    height: 100%;
+    width: 25%;
+    background-size: 100% 100%;
+    border: 2px solid white;
+}
+.GALLERY_images_type_2_B_2{
+    background-image: url("/iEducateWebsite/image/12.png");
+    height: 100%;
+    width: 25%;
+    background-size: 100% 100%;
+    border: 2px solid white;
+}
+.GALLERY_images_type_2_B_3{
+    background-image: url("/iEducateWebsite/image/11.jpg");
+    height: 100%;
+    width: 25%;
+    background-size: 100% 100%;
+    border: 2px solid white;
+}
+.GALLERY_images_type_2_B_4{
+    background-image: url("/iEducateWebsite/image/13.jpg");
+    height: 100%;
+    width: 25%;
+    background-size: 100% 100%;
+    border: 2px solid white;
+}
+.GALLERY_images_type_3{
+    display: inline-flex;
+    width: 100%;
+}
+.GALLERY_images_type_3_A{
+    width: 282px;
+    height: 500px;
+    border: 2px solid white;
+}
+.GALLERY_images_type_3_A video{
+    height: 100%;
+}
+.GALLERY_images_type_3_B{
+    display: grid;
+    width: 354.5px;
+    height: 500px;
+}
+.GALLERY_images_type_3_B_1{
+    background-image: url("/iEducateWebsite/image/14.jpg");
+    width: 100%;
+    height: 240px;
+    background-size: 100% 100%;
+    border: 2px solid white;
+}
+.GALLERY_images_type_3_B_2{
+    background-image: url("/iEducateWebsite/image/15.jpg");
+    width: 100%;
+    height: 240px;
+    background-size: 100% 100%;
+    border: 2px solid white;
+}
+.GALLERY_images_type_3_C{
+    width: 282px;
+    height: 500px;
+    border: 2px solid white;
+}
+.GALLERY_images_type_3_C video{
+    height: 100%;
+}
+.GALLERY_images_type_3_D{
+    display: grid;
+    width: 354.5px;
+    height: 500px;
+}
+.GALLERY_images_type_3_D_1{
+    background-image: url("/iEducateWebsite/image/16.png");
+    width: 100%;
+    height: 240px;
+    background-size: 100% 100%;
+    border: 2px solid white;
+}
+.GALLERY_images_type_3_D_2{
+    background-image: url("/iEducateWebsite/image/17.jpg");
+    width: 100%;
+    height: 240px;
+    background-size: 100% 100%;
+    border: 2px solid white;
+}

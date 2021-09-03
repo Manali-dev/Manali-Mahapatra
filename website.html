@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iManali--Online</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+
+<body>
+    <nav class="navbar h-nav-resp">
+        <ul class="leftnav v-class-resp">
+            <div class="logo"><img src="image/laptop.jpg" alt="logo"></div>
+            <li> <a href="#">HOME</a></li>
+            <li> <a href="#about">ABOUT</a></li>
+            <li> <a href="https://www.instagram.com/manalimahapatra/">SOCIAL MEDIA</a></li>
+            <li> <a href="#contact">CONTACT US</a></li>
+        </ul>
+        <div class="rightnav v-class-resp">
+            <input type="text" placeholder="Search here" id="search">
+            <button class="btn-small" onclick="getbtnsm()">Search</button>
+        </div>
+    </nav>
+
+    <div class="burger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+    </div>
+
+    <section class="background firstSection">
+        <div class="box-main">
+            <p>
+            <h3>The Future of Education is here....</h3>
+            </p> &nbsp;
+            <p>In this world of 7 billion people we need to educate all of them. This is the
+                future of Educated world.</p>
+                <br>
+                <br>
+                <br>
+                <button type="button" class="btn-gallery" onclick="window.location.href='gallery.html';" >GALLERY</button>
+                
+            <img src="image/R.jpg" alt="image" width="400">
+        </div>
+
+    </section>
+
+    <section class="section" id="about">
+        <div class="paras">
+            <h3>
+                <p class="sectionTag text-big">Small Intro of Our Page...</p>
+            </h3> &nbsp;
+            <p class="sectionSubTag">
+                Hello... Manali here...<br>
+                Here, you will interact with some awesome features of frontend used with help of HTML, CSS and
+                JavaScript. <br>
+                And if you want to learn more about these fertures or if you have anything to tell about this page you
+                may write
+                your feedback at concern box at Contact Us page.<br>
+                Read below to improve your knowledge about Frontend.
+
+            </p>
+        </div>
+        <div class="thumbnail">
+            <img src="https://source.unsplash.com/900x900/?study,laptop" alt="image" width="250" class="imgFluid">
+        </div>
+    </section>
+
+    <section class="secLeft">
+        <div class="paras">
+            <h3>
+                <p class="sectionTag text-big">Information To Know About frontend</p>
+            </h3> &nbsp;
+            <p class="sectionSubTag">The frontend is an abstraction, simplifying the underlying component by providing
+                a user-friendly interface, while the back usually handles data storage and business logic.
+                In telecommunication, the front can be considered a device or service, while the back is the
+                infrastructure that supports provision of service. <br>
+                A rule of thumb is that the client-side (or "frontend") is any component manipulated by the user.
+                The server-side (or "backend") code usually resides on the server, often far removed physically from
+                the user.</p>
+        </div>
+        <div class="thumbnail">
+            <img src="https://source.unsplash.com/900x900/?website,books" alt="image" width="250" class="imgFluid">
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="paras">
+            <h3>
+                <p class="sectionTag text-big">Deep Information About Frontend</p>
+            </h3> &nbsp;
+            <p class="sectionSubTag">The HyperText Markup Language, or HTML is the standard markup language for
+                documents designed to be displayed in a web browser. It can be assisted by technologies such as
+                Cascading Style Sheets (CSS) and scripting languages such as JavaScript.<br>
+                Alongside HTML and CSS, JavaScript is one of the core technologies of the World Wide Web.<br>
+                Whereas, CSS is designed to enable the separation of presentation and content, including layout,
+                colors, and fonts.[3] This separation can improve content accessibility, provide more flexibility
+                and control in the specification of presentation characteristics, enable multiple web pages to share
+                formatting by specifying the relevant CSS in a separate.
+            </p>
+        </div>
+        <div class="thumbnail">
+            <img src="https://source.unsplash.com/900x900/?college,school" alt="image" width="250" class="imgFluid">
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2>Contact Us</h2>
+        <div class="form">
+            <input type="text" name="name" id="name" placeholder="Enter your name"><br>
+            <input type="text" name="phone" id="phone" placeholder="Enter your phone"><br>
+            <input type="email" name="e-mail" id="email" placeholder="Enter your email"><br>
+            <input type="text" name="concern" id="concern" placeholder="Ellaborate your concern"><br>
+            <button class="btn">Submit</button>
+        </div>
+    </section>
+    <footer>
+        Copyright &copy; 2027 www.iManali.com - All rights reserved
+    </footer>
+    <script src="resp.js">
+        var myHilitor = new Hilitor("content"); // id of the element to parse
+  myHilitor.apply("highlight words");
+    </script>
+
+</body>
+
+</html>
