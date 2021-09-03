@@ -184,7 +184,7 @@ footer{
 
 
 
-.GALLERY_images{
+/* .GALLERY_images{
     transition: all 0.8s;
 }
 .GALLERY_images_type_2{
@@ -205,7 +205,7 @@ footer{
 .GALLERY_images_type_3:hover{
     transform: scale(1.2) rotate(0deg);
     box-shadow: 2px 2px 10px black;
-}
+} */
 
 
 .GALLERY_images_div_1{
@@ -231,14 +231,14 @@ footer{
     height: 248px;
 }
 .GALLERY_images_div_1_B_I_a{
-    background-image: url("/iEducateWebsite/image/1.jpg");
+    background-image: url("image/1.jpg");
     height: 100%;
     width: 50%;
     background-size: 100% 100%;
     border: 2px solid white;
 }
  .GALLERY_images_div_1_B_I_b{
-    background-image: url("/iEducateWebsite/image/2.jpg");
+    background-image: url("image/2.jpg");
     height: 100%;
     width: 50%;
     background-size: 100% 100%;
@@ -251,13 +251,13 @@ footer{
     width: 100%;
 }
 .GALLERY_images_div_1_B_II_a{
-    background-image: url("/iEducateWebsite/image/3.jpg");
+    background-image: url("image/3.jpg");
     width: 50%;
     background-size: 100% 100%;
     border: 2px solid white; 
 }
 .GALLERY_images_div_1_B_II_b{
-    background-image: url("/iEducateWebsite/image/6.png");
+    background-image: url("image/6.png");
     width: 50%;
     background-size: 100% 100%;
     border: 2px solid white; 
@@ -282,28 +282,28 @@ footer{
     height: 250px;
 }
 .GALLERY_images_type_2_A_1{
-    background-image: url("/iEducateWebsite/image/7.jpg");
+    background-image: url("image/7.jpg");
     height: 100%;
     width: 25%;
     background-size: 100% 100%;
     border: 2px solid white;
 }
 .GALLERY_images_type_2_A_2{
-    background-image: url("/iEducateWebsite/image/4.jpg");
+    background-image: url("image/4.jpg");
     height: 100%;
     width: 25%;
     background-size: 100% 100%;
     border: 2px solid white;
 }
 .GALLERY_images_type_2_A_3{
-    background-image: url("/iEducateWebsite/image/8.jpg");
+    background-image: url("image/8.jpg");
     height: 100%;
     width: 25%;
     background-size: 100% 100%;
     border: 2px solid white;
 }
 .GALLERY_images_type_2_A_4{
-    background-image: url("/iEducateWebsite/image/9.jpg");
+    background-image: url("image/9.jpg");
     height: 100%;
     width: 25%;
     background-size: 100% 100%;
@@ -315,28 +315,28 @@ footer{
     height: 250px;
 }
 .GALLERY_images_type_2_B_1{
-    background-image: url("/iEducateWebsite/image/10.jpg");
+    background-image: url("image/10.jpg");
     height: 100%;
     width: 25%;
     background-size: 100% 100%;
     border: 2px solid white;
 }
 .GALLERY_images_type_2_B_2{
-    background-image: url("/iEducateWebsite/image/12.png");
+    background-image: url("image/12.png");
     height: 100%;
     width: 25%;
     background-size: 100% 100%;
     border: 2px solid white;
 }
 .GALLERY_images_type_2_B_3{
-    background-image: url("/iEducateWebsite/image/11.jpg");
+    background-image: url("image/11.jpg");
     height: 100%;
     width: 25%;
     background-size: 100% 100%;
     border: 2px solid white;
 }
 .GALLERY_images_type_2_B_4{
-    background-image: url("/iEducateWebsite/image/13.jpg");
+    background-image: url("image/13.jpg");
     height: 100%;
     width: 25%;
     background-size: 100% 100%;
@@ -360,14 +360,14 @@ footer{
     height: 500px;
 }
 .GALLERY_images_type_3_B_1{
-    background-image: url("/iEducateWebsite/image/14.jpg");
+    background-image: url("image/14.jpg");
     width: 100%;
     height: 240px;
     background-size: 100% 100%;
     border: 2px solid white;
 }
 .GALLERY_images_type_3_B_2{
-    background-image: url("/iEducateWebsite/image/15.jpg");
+    background-image: url("image/15.jpg");
     width: 100%;
     height: 240px;
     background-size: 100% 100%;
@@ -387,14 +387,14 @@ footer{
     height: 500px;
 }
 .GALLERY_images_type_3_D_1{
-    background-image: url("/iEducateWebsite/image/16.png");
+    background-image: url("image/16.png");
     width: 100%;
     height: 240px;
     background-size: 100% 100%;
     border: 2px solid white;
 }
 .GALLERY_images_type_3_D_2{
-    background-image: url("/iEducateWebsite/image/17.jpg");
+    background-image: url("image/17.jpg");
     width: 100%;
     height: 240px;
     background-size: 100% 100%;
